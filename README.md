@@ -1,37 +1,27 @@
-Dynamic Evaluation & Performance Tracking System
+📊 Dynamic Evaluation & Performance Tracking System
 📌 Project Overview
 
-This project is a Dynamic Performance Evaluation System built to track, measure, and visualize departmental performance across multiple branches.
+Developed for Ramco, this project is a Dynamic Performance Evaluation System designed to track, measure, and visualize departmental performance across multiple branches.
 
-The system was designed to:
+The system enables structured monitoring of Requirements and frequency-based Tasks (Monthly, Weekly, Quarterly), compares Annual Targets vs. Actual Performance, calculates completion rates automatically, and delivers a centralized interactive Executive Dashboard powered by a unified Data Model.
 
-Monitor Requirements across departments
-
-Track Tasks based on frequency (Monthly, Weekly, Quarterly)
-
-Compare Annual Targets vs. Actual Performance
-
-Calculate completion rates automatically
-
-Provide a fully interactive Executive Dashboard
-
-⚠️ Note: The dashboard screenshots included in this repository contain sample data for demonstration purposes only and do not represent real company data.
+⚠️ Note: The dashboard screenshots included in this repository contain sample data for demonstration purposes only and do not represent actual company data.
 
 🎯 Business Objective
 
-The goal was to create a centralized, automated system that:
+The objective was to build a centralized and automated evaluation system that:
 
 Allows each department to enter data independently (separate user input)
 
-Consolidates all departments into a unified reporting model
+Consolidates all departments into a unified reporting structure
 
 Eliminates manual calculations
 
-Provides management with real-time KPIs and performance insights
+Provides real-time KPIs and performance insights for management
 
 🏗️ System Architecture
 
-The project consists of 4 main layers:
+The system consists of four main layers:
 
 1️⃣ Data Entry Layer
 
@@ -41,49 +31,43 @@ Tasks linked to Requirements
 
 Frequency-based tracking (Monthly / Weekly / Quarterly)
 
-Data Validation lists for controlled input
+Data Validation lists for controlled and structured input
 
-Dynamic annual & monthly targets
+Dynamic annual and monthly targets
 
 2️⃣ Annual Target Structure
 
 Annual target points per Requirement
 
-Monthly tracking
+Monthly performance tracking
 
 Dynamic lookup logic
 
-Error handling to prevent calculation failures
+Built-in error handling to prevent calculation issues
 
 3️⃣ Data Processing – Power Query
 
-Data transformation was handled using Power Query, including:
-
 Merging departmental tables
 
-Grouping and aggregating points
+Grouping and aggregating performance points
 
 Creating calculated columns
 
 Handling null and division errors
 
-Data type normalization
+Data type normalization and cleaning
 
-Cleaning and structuring for reporting
+Structuring data for reporting
 
-4️⃣ Data Model
+4️⃣ Centralized Data Model
 
-A centralized Data Model was created to:
+Connecting all departments and branches
 
-Connect all departments and branches
+Enabling cross-department reporting
 
-Enable cross-department reporting
+Supporting dynamic Pivot Tables
 
-Build dynamic Pivot Tables
-
-Power the unified Dashboard
-
-This allowed the dashboard to track all departments from a single reporting interface.
+Powering the unified Dashboard interface
 
 📊 Dashboard Features
 🔹 KPI Summary Bar
@@ -104,13 +88,21 @@ Total Pending Tasks
 
 Requirement completion comparison
 
-Completed vs Pending points
+Completed vs. Pending points analysis
 
-Frequency-based task analysis
+Frequency-based task performance tracking
 
-Department-level performance tracking
+Department-level performance overview
 
-The dashboard updates dynamically based on selections.
+🔹 Dynamic Filters (Slicers)
+
+Department
+
+Requirement
+
+Task Frequency
+
+The dashboard updates dynamically based on user selections.
 
 ⚙️ Tools & Technologies Used
 
@@ -126,16 +118,4 @@ Calculated Fields / Measures
 
 Data Validation
 
-Dashboard Design & UI Structuring
-
-🚀 Key Achievements
-
-Fully automated annual & monthly performance tracking
-
-Multi-user department input system
-
-Centralized reporting model
-
-Error-free calculation structure
-
-Executive-ready interactive dashboard
+Dashboard UI & Performance Structuring
