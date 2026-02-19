@@ -80,3 +80,7 @@ The objective was to build a centralized and automated evaluation system that:
 ## 🚀 Key Achievements
 
 - Fully automated annual and monthly
+- Multi-user departmental input system  
+- Centralized and scalable reporting structure  
+- Error-free calculation logic  
+- Executive-ready interactive dashboard  
