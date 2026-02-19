@@ -2,8 +2,7 @@
 
 ## 📌 Project Overview
 
-Developed for **Ramco**, this project is a **Dynamic Performance Evaluation System** designed to track, measure, and visualize departmental performance across multiple branches.
-
+This project is a **Dynamic Performance Evaluation System** built for **Aramco**, designed to track, measure, and visualize departmental performance across multiple branches.
 The system enables structured monitoring of requirements and frequency-based tasks (**Monthly, Weekly, Quarterly**), compares annual targets with actual performance, calculates completion rates automatically, and delivers a centralized interactive executive dashboard powered by a unified data model.
 
 > ⚠️ Note: The dashboard screenshots included in this repository contain sample data for demonstration purposes only and do not represent actual company data.
