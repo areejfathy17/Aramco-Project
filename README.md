@@ -1,121 +1,83 @@
-📊 Dynamic Evaluation & Performance Tracking System
-📌 Project Overview
+# 📊 Dynamic Evaluation & Performance Tracking System
 
-Developed for Ramco, this project is a Dynamic Performance Evaluation System designed to track, measure, and visualize departmental performance across multiple branches.
+## 📌 Project Overview
 
-The system enables structured monitoring of Requirements and frequency-based Tasks (Monthly, Weekly, Quarterly), compares Annual Targets vs. Actual Performance, calculates completion rates automatically, and delivers a centralized interactive Executive Dashboard powered by a unified Data Model.
+Developed for **Ramco**, this project is a **Dynamic Performance Evaluation System** designed to track, measure, and visualize departmental performance across multiple branches.
 
-⚠️ Note: The dashboard screenshots included in this repository contain sample data for demonstration purposes only and do not represent actual company data.
+The system enables structured monitoring of requirements and frequency-based tasks (**Monthly, Weekly, Quarterly**), compares annual targets with actual performance, calculates completion rates automatically, and delivers a centralized interactive executive dashboard powered by a unified data model.
 
-🎯 Business Objective
+> ⚠️ Note: The dashboard screenshots included in this repository contain sample data for demonstration purposes only and do not represent actual company data.
+
+---
+
+## 🎯 Business Objective
 
 The objective was to build a centralized and automated evaluation system that:
 
-Allows each department to enter data independently (separate user input)
+- Allows each department to enter data independently  
+- Consolidates all departments into one reporting structure  
+- Eliminates manual calculations  
+- Provides real-time KPIs and performance insights  
 
-Consolidates all departments into a unified reporting structure
+---
 
-Eliminates manual calculations
+## 🏗️ System Architecture
 
-Provides real-time KPIs and performance insights for management
+### 1️⃣ Data Entry Layer
+- Separate input sheets for each department  
+- Tasks linked to requirements  
+- Frequency-based tracking (Monthly / Weekly / Quarterly)  
+- Data validation lists  
+- Dynamic annual and monthly targets  
 
-🏗️ System Architecture
+### 2️⃣ Annual Target Structure
+- Annual target points per requirement  
+- Monthly tracking  
+- Dynamic lookup logic  
+- Built-in error handling  
 
-The system consists of four main layers:
+### 3️⃣ Data Processing – Power Query
+- Merging departmental tables  
+- Grouping and aggregating performance data  
+- Creating calculated columns  
+- Handling null and division errors  
+- Data cleaning and structuring  
 
-1️⃣ Data Entry Layer
+### 4️⃣ Centralized Data Model
+- Connecting all departments and branches  
+- Enabling cross-department reporting  
+- Supporting dynamic pivot tables  
+- Powering the unified dashboard  
 
-Separate input sheets for each department
+---
 
-Tasks linked to Requirements
+## 📊 Dashboard Features
 
-Frequency-based tracking (Monthly / Weekly / Quarterly)
+- % Requirements Completion  
+- Total Annual Points  
+- Total Completed Points  
+- Total Pending Points  
+- Total Completed Tasks  
+- Total Pending Tasks  
+- Requirement comparison analysis  
+- Frequency-based task tracking  
+- Department-level performance overview  
+- Dynamic filters for Department, Requirement, and Task Frequency  
 
-Data Validation lists for controlled and structured input
+---
 
-Dynamic annual and monthly targets
+## ⚙️ Tools Used
 
-2️⃣ Annual Target Structure
+- Microsoft Excel  
+- Power Query  
+- Data Model (Relationships)  
+- Pivot Tables  
+- Calculated Fields / Measures  
+- Data Validation  
+- Dashboard Design  
 
-Annual target points per Requirement
+---
 
-Monthly performance tracking
+## 🚀 Key Achievements
 
-Dynamic lookup logic
-
-Built-in error handling to prevent calculation issues
-
-3️⃣ Data Processing – Power Query
-
-Merging departmental tables
-
-Grouping and aggregating performance points
-
-Creating calculated columns
-
-Handling null and division errors
-
-Data type normalization and cleaning
-
-Structuring data for reporting
-
-4️⃣ Centralized Data Model
-
-Connecting all departments and branches
-
-Enabling cross-department reporting
-
-Supporting dynamic Pivot Tables
-
-Powering the unified Dashboard interface
-
-📊 Dashboard Features
-🔹 KPI Summary Bar
-
-% Requirements Completion
-
-Total Annual Points
-
-Total Completed Points
-
-Total Pending Points
-
-Total Completed Tasks
-
-Total Pending Tasks
-
-🔹 Interactive Visualizations
-
-Requirement completion comparison
-
-Completed vs. Pending points analysis
-
-Frequency-based task performance tracking
-
-Department-level performance overview
-
-🔹 Dynamic Filters (Slicers)
-
-Department
-
-Requirement
-
-Task Frequency
-
-The dashboard updates dynamically based on user selections.
-
-⚙️ Tools & Technologies Used
-
-Microsoft Excel
-
-Power Query
-
-Data Model (Relationships)
-
-Pivot Tables
-
-Calculated Fields / Measures
-
-Data Validation
-
-Dashboard UI & Performance Structuring
+- Fully automated annual and monthly
