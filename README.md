@@ -1,86 +1,69 @@
-# 📊 Dynamic Evaluation & Performance Tracking System
+# 📈 Excel-Based Performance Evaluation System (Aramco-affiliated Engagement)
 
-## 📌 Project Overview
+![Dashboard Preview](https://github.com/areejfathy17/Aramco-Project/blob/main/%D8%AF%D8%A7%D8%B4%D8%A8%D9%88%D8%B1%D8%AF.png)
 
-This project is a **Dynamic Performance Evaluation System** built for **Aramco**, designed to track, measure, and visualize departmental performance across multiple branches.
-The system enables structured monitoring of requirements and frequency-based tasks (**Monthly, Weekly, Quarterly**), compares annual targets with actual performance, calculates completion rates automatically, and delivers a centralized interactive executive dashboard powered by a unified data model.
+A centralized Excel-based performance evaluation solution designed to automate KPI tracking, departmental assessment, and executive reporting across multiple branches and departments.
 
-> ⚠️ Note: The dashboard screenshots included in this repository contain sample data for demonstration purposes only and do not represent actual company data.
-
----
-
-## 🎯 Business Objective
-
-The objective was to build a centralized and automated evaluation system that:
-
-- Allows each department to enter data independently  
-- Consolidates all departments into one reporting structure  
-- Eliminates manual calculations  
-- Provides real-time KPIs and performance insights  
+⚠️ Dashboard screenshots contain sample data for demonstration purposes only.
 
 ---
 
-## 🏗️ System Architecture
+## 📝 Data Entry Interface
 
-### 1️⃣ Data Entry Layer
-- Separate input sheets for each department  
-- Tasks linked to requirements  
-- Frequency-based tracking (Monthly / Weekly / Quarterly)  
-- Data validation lists  
-- Dynamic annual and monthly targets  
+![Data Entry Interface](https://github.com/areejfathy17/Aramco-Project/blob/main/Data%20Entry%20Interface.png)
 
-### 2️⃣ Annual Target Structure
-- Annual target points per requirement  
-- Monthly tracking  
-- Dynamic lookup logic  
-- Built-in error handling  
+Designed structured department-specific input forms featuring:
 
-### 3️⃣ Data Processing – Power Query
-- Merging departmental tables  
-- Grouping and aggregating performance data  
-- Creating calculated columns  
-- Handling null and division errors  
-- Data cleaning and structuring  
-
-### 4️⃣ Centralized Data Model
-- Connecting all departments and branches  
-- Enabling cross-department reporting  
-- Supporting dynamic pivot tables  
-- Powering the unified dashboard  
+* Data Validation controls
+* Dynamic target assignment
+* Monthly, Weekly, and Quarterly tracking
+* Automated completion calculations
+* Error handling and consistency checks
 
 ---
 
-## 📊 Dashboard Features
+## 🗄️ Centralized Data Model
 
-- % Requirements Completion  
-- Total Annual Points  
-- Total Completed Points  
-- Total Pending Points  
-- Total Completed Tasks  
-- Total Pending Tasks  
-- Requirement comparison analysis  
-- Frequency-based task tracking  
-- Department-level performance overview  
-- Dynamic filters for Department, Requirement, and Task Frequency  
+![Data Model]((https://github.com/areejfathy17/Aramco-Project/blob/main/model.png))
+
+Built a relational data model connecting departments, requirements, tasks, targets, and performance records to support automated KPI calculations, cross-department analysis, and scalable reporting.
 
 ---
 
-## ⚙️ Tools Used
+## 📊 Executive Dashboard
 
-- Microsoft Excel  
-- Power Query  
-- Data Model (Relationships)  
-- Pivot Tables  
-- Calculated Fields / Measures  
-- Data Validation  
-- Dashboard Design  
+Interactive dashboard providing real-time visibility into:
+
+* Requirements Completion %
+* Total Annual Points
+* Completed vs Pending Points
+* Completed vs Pending Tasks
+* Department Performance Comparison
+* Frequency-Based Task Analysis
+* KPI Monitoring & Reporting
 
 ---
 
-## 🚀 Key Achievements
+## 🚀 Key Features
 
-- Fully automated annual and monthly
-- Multi-user departmental input system  
-- Centralized and scalable reporting structure  
-- Error-free calculation logic  
-- Executive-ready interactive dashboard  
+* Multi-department performance tracking
+* Centralized reporting structure
+* Automated KPI calculations
+* Dynamic filtering and drill-down analysis
+* Scalable architecture supporting multiple branches
+* Structured data entry and validation workflows
+
+---
+
+## 🛠️ Tools Used
+
+**Microsoft Excel • Power Query • Power Pivot • Data Model • Pivot Tables • Calculated Fields • Data Validation • Dashboard Design**
+
+---
+
+## 📌 Project Highlights
+
+* Built a centralized KPI evaluation system with automated calculations and reporting.
+* Consolidated departmental data into a unified reporting model using Power Query and Power Pivot.
+* Developed executive dashboards to monitor completion rates, targets, and operational performance.
+* Eliminated manual calculations through dynamic targets, validation rules, and automated KPI tracking.
