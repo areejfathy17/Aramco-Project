@@ -24,7 +24,7 @@ Designed structured department-specific input forms featuring:
 
 ## 🗄️ Centralized Data Model
 
-![Data Model]((https://github.com/areejfathy17/Aramco-Project/blob/main/model.png))
+![Data Model](https://github.com/areejfathy17/Aramco-Project/blob/main/model.png)
 
 Built a relational data model connecting departments, requirements, tasks, targets, and performance records to support automated KPI calculations, cross-department analysis, and scalable reporting.
 
